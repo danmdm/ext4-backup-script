@@ -83,6 +83,3 @@ Prefixul `<hostname>` izolează backup-urile provenite de pe calculatoare diferi
 - Legăturile simbolice (symlinks) **nu sunt copiate** — `rsync` este apelat fără `-l`/`--links`.
 - Permisiunile și proprietarul fișierelor **nu sunt păstrate** pe destinație (doar timpul de modificare, via `-t`).
 
-## Licență
-
-Fără licență specificată — adaugă un fișier `LICENSE` dacă intenționezi să faci acest depozit public.
